@@ -1,4 +1,5 @@
 ActiveAdmin.register Story do
+  permit_params :title, :content, :religion
 
   
   # See permitted parameters documentation:
